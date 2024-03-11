@@ -10,6 +10,7 @@ import { HiOutlineRefresh } from "react-icons/hi";
 import { TiTick } from "react-icons/ti";
 import { GiLouvrePyramid } from "react-icons/gi";
 import { GrLocation } from "react-icons/gr";
+import lerd from "./lerd.jpg";
 import avatar from "./avatar.jpg";
 import avatar2 from "./avatar2.jpg";
 import avatar3 from "./avatar3.png";
@@ -699,7 +700,7 @@ export const medicalproBranding = {
             image: avatar4,
         },
         {
-            image: avatar,
+            image: lerd,
         },
     ],
 };
@@ -977,7 +978,7 @@ export const customersData = [
         CustomerEmail: "jamil@gmail.com",
         ProjectName: "MedicalPro WP Theme",
         Status: "Completed",
-        CustomerImage: avatar,
+        CustomerImage: lerd,
         StatusBg: "#8BE78B",
         Weeks: "34",
         Budget: "$16.5k",
