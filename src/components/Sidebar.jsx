@@ -7,7 +7,7 @@ import { links } from "../data/dummy";
 import { useStateContext } from "../contexts/ContextProvider";
 
 const Sidebar = () => {
-    const { activeMenu, setActiveMenu, screenSize,currentColor } = useStateContext();
+    const { activeMenu, setActiveMenu, screenSize, currentColor } = useStateContext();
 
     const activeLink = "flex items-center gap-5 pl-4 pt-3 pb-2.5 rounded-lg text-white text-md m-2";
     const normalLink =
@@ -25,6 +25,7 @@ const Sidebar = () => {
                         <Link
                             to="/"
                             onClick={() => {
+                                // eslint-disable-next-line no-unused-expressions
                                 handleCloseSideBar;
                             }}
                             className="items-center gap-3 ml-3 mt-4 flex text-xl font-extrabold tracking-tight dark:text-white text-slate-900"

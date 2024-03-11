@@ -1,5 +1,6 @@
 import React from "react";
 import { HtmlEditor, Image, Inject, Link, QuickToolbar, RichTextEditorComponent, Toolbar } from "@syncfusion/ej2-react-richtexteditor";
+// eslint-disable-next-line no-unused-vars
 import { EditorData } from "../data/dummy";
 import { Header } from "../components";
 
@@ -10,7 +11,7 @@ const Editor = () => {
             <RichTextEditorComponent>
                 {/* uncomment EditorData to set default data of texts */}
                 {/* <EditorData/> */}
-                <Inject services={[HtmlEditor,Toolbar,Image,Link,QuickToolbar]}/>
+                <Inject services={[HtmlEditor, Toolbar, Image, Link, QuickToolbar]} />
             </RichTextEditorComponent>
         </div>
     );
